@@ -3,7 +3,7 @@ name: TRAE 每日签到
 on:
   schedule:
     # 每天 00:00 UTC = 08:00 北京时间
-    - cron: '30 4,8 * * *'
+    - cron: '30 0,8 * * *'
   workflow_dispatch: # 支持手动触发
 
 jobs:
